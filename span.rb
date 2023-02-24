@@ -4,7 +4,7 @@ class Span <  Formula
 	version "0.1.16"
 
 	on_macos do
-    	if Hardware::CPU.intel?
+		if Hardware::CPU.intel?
 			url "https://github.com/lab5e/spancli/releases/download/v0.1.16/span.amd64-macos.zip"
 			sha256 "84dc30a0ec9f28cef38b6b7bc0ab87c14a33c8435cd5435364af3f707b10b730"
 		end
