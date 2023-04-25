@@ -5,13 +5,13 @@ class Span <  Formula
 
 	on_macos do
 		if Hardware::CPU.intel?
-			url "https://github.com/lab5e/spancli/releases/download/v0.1.16/span.amd64-macos.zip"
-			sha256 "84dc30a0ec9f28cef38b6b7bc0ab87c14a33c8435cd5435364af3f707b10b730"
+			url "https://github.com/lab5e/spancli/releases/download/v0.2.0/span.amd64-macos.zip"
+			sha256 "6c1ff7703712c4d406195f368085c125f662137daf72044336a92ddd34521330"
 		end
 
 		if Hardware::CPU.arm?
-			url "https://github.com/lab5e/spancli/releases/download/v0.1.16/span.arm64-macos.zip"
-			sha256 "6e0c3f6c8e631253a4c7a13bad72e93278a42db62717822121be656013101f1d"
+			url "https://github.com/lab5e/spancli/releases/download/v0.2.0/span.arm64-macos.zip"
+			sha256 "a768201e9188070f3e5149480476c940a25180e4472ff127563e55145cec4268"
 		end
 	end
 
