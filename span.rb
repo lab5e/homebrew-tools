@@ -1,7 +1,7 @@
 class Span <  Formula
 	desc "Span command line client"
 	homepage "https://github.com/lab5e/spancli"
-	version "0.1.16"
+	version "0.2.0"
 
 	on_macos do
 		if Hardware::CPU.intel?
