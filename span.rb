@@ -1,5 +1,5 @@
 
-class foo <  Formula
+class Span <  Formula
 	desc "Span command line client"
 	homepage "https://github.com/lab5e/spancli"
 	version "0.2.6"
